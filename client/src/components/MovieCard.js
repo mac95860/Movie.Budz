@@ -17,6 +17,7 @@ export default function MovieCard() {
                     <button className = "secondary"> Add to Favorites </button>
                 </div>
             </div>
+        
         </div>
     )
 }

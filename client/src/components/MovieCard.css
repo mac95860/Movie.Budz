@@ -1,3 +1,5 @@
+
+
 .movie {
     margin-top: 15px;
     max-width: 300px;
@@ -7,6 +9,13 @@
     display: flex;
     flex-direction: column;
     padding: 15px;
+    border-radius: 5px;
+    box-shadow: 5px, 5px, 20px, grey;
+}
+
+.movie-title{
+    font-size: medium;
+    font-weight: 400;
 }
 
 .movie_poster {
@@ -21,5 +30,11 @@
 }
 
 button {
+    font-weight: 200;
     margin: 10px;
+    color: white;
+    border-radius: 5px;
+    background-color: rgb(18, 18, 187);
+    border: solid;
+    border-color: rgb(18, 18, 187), rgb(18, 18, 190), rgb(20, 19, 190);
 }

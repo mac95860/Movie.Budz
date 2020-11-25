@@ -4,6 +4,7 @@ import Jumbotron from '../components/Jumbotron';
 import MovieSearch from '../components/MovieSearch'
 import CreateMovieModal from '../components/CreateMovieModal';
 import MovieCard from '../components/MovieCard';
+import MovieTable from '../components/MovieTable';
 
 export default function Home() {
     return (
@@ -12,7 +13,10 @@ export default function Home() {
         <Jumbotron/>
         <MovieSearch/>
         <CreateMovieModal/>
-        <MovieCard/>
+        <MovieTable>
+            <MovieCard/>
+            <MovieCard/>
+        </MovieTable>
         </>
     )
 }
