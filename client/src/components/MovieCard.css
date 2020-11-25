@@ -1,0 +1,19 @@
+.movie {
+    margin-top: 15px;
+    max-width: 300px;
+    max-height: 400px;
+    color: white;
+    background: #111111;
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+}
+
+.movie_poster {
+    max-width: 150px;
+    max-height: 200px;
+}
+
+button {
+    margin: 10px;
+}
