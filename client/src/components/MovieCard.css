@@ -14,6 +14,12 @@
     max-height: 200px;
 }
 
+.imageBox {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
 button {
     margin: 10px;
 }
